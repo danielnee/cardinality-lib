@@ -1,0 +1,22 @@
+## Description 
+
+Collection of algorithms for estimating the cardinality of sets. Provides implementation of:
+
+* HyperLogLog
+* LogLog
+* Linear Counter
+
+## Building
+
+Assuming you have [Apache Maven](http://maven.apache.org/) installed
+and configured:
+
+    mvn package
+   
+And you should be all set.
+
+## Sources
+
+Main inspiration for the code was stream-lib (https://github.com/clearspring/stream-lib) and and probably-js (https://github.com/yammer/probablyjs).
+
+
